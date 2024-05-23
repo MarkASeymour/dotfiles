@@ -1,0 +1,47 @@
+@import "mocha.css";
+
+* {
+  font-family: Ubuntu Nerd Font;
+  font-size: 12px
+}
+
+window {
+  margin: 1px;
+  border: 10px solid #cba6f7;
+  border-radius: 10px;
+}
+
+#input {
+  margin: 5px;
+  border-radius: 0px;
+  border: none;
+  border-bottom: 0px solid #cba6f7;
+  background-color: #1e1e2e;
+  color: #cdd6f4;
+}
+
+#inner-box {
+  margin: 5px;
+  background-color: #1e1e2e;
+}
+
+#outer-box {
+  margin: 3px;
+  padding: 20px;
+  background-color: #1e1e2e;
+  border-radius: 10px;
+}
+
+#text {
+  margin: 5px;
+  color: #cdd6f4;
+}
+
+#entry:selected {
+  background-color: #11111b;
+  border-radius: 10px;
+}
+
+#text:selected {
+  text-decoration-color: #cdd6f4;
+}
